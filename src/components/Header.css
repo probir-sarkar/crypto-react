@@ -1,0 +1,57 @@
+.theme-dark .header-button {
+  background-color: #2e3241;
+  color: #fff;
+}
+.theme-dark .header-button:hover {
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+}
+.header-button {
+  color: #0c0f48;
+  background-color: #f8f9fa;
+  border: 0;
+  box-shadow: 0 0 2px #ddd;
+  border: 0;
+  padding: 6px 20px;
+  border-radius: 10px;
+  height: max-content;
+  font-size: 16px;
+}
+.header-button:hover {
+  background-color: #2e3241;
+  color: #fff;
+  border: 0;
+}
+
+.logo {
+  max-width: 70%;
+}
+.header-telegram-button {
+  padding: 6px 20px;
+  border-radius: 10px;
+  background-color: rgb(61, 198, 193);
+  color: #fff !important;
+  height: max-content;
+  border: none;
+}
+#custom-switch {
+  height: 34px;
+  width: 60px;
+  background-color: #f8f9fa;
+  border: none;
+  margin-top: 0px;
+}
+.theme-dark #custom-switch {
+  background-color: #2e3241;
+}
+
+#custom-switch:focus {
+  border: none;
+  box-shadow: none;
+}
+.form-switch .form-check-input:checked,
+.form-switch .form-check-input,
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgb(61,198,193)'/%3e%3c/svg%3e");
+}

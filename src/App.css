@@ -1,0 +1,43 @@
+body {
+  font-family: Oswald, sans-serif;
+}
+.theme-dark {
+  position: relative;
+  background: #191d28;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.theme-dark #ticker-table tbody tr {
+  background-color: #2e3241;
+}
+#ticker-table tbody tr {
+  background-color: #f8f9fa;
+}
+
+#ticker-table tbody tr td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+#ticker-table tbody tr td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+#ticker-table table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 0.75em;
+  margin: 0;
+  font-size: 24px;
+  color: #0c0f48;
+}
+.theme-dark #ticker-table table {
+  color: #fff;
+}
+#ticker-table table thead tr {
+  color: #0c0f48;
+  opacity: 0.5;
+}
+.theme-dark #ticker-table table thead tr {
+  color: #fff;
+}

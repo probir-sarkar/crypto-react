@@ -1,0 +1,9 @@
+.progress-bar-wrapper {
+  height: 36px;
+  width: 36px;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #3dc6c1 !important;
+  font-size: 44px !important;
+  font-weight: 500;
+}
